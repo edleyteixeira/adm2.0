@@ -1,0 +1,57 @@
+/* #FF00D0 #BC0BD9 #9400F0 #580BD9 #472BFC */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 100%;
+  
+}
+
+body{
+    
+    background-color: #580BD9;
+    width: 100%;
+
+}
+section{
+    
+    color: #580BD9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 90%;
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 7px;
+}
+header{text-align: center; padding: 2%; margin-top: 2%;}
+header p{font-size: .8em; color: #472BFC; border-radius: 3px;}
+
+.btn{margin-bottom: 2%; margin-top: 1.5%;}
+.check{ margin-top: 2%;}
+
+
+footer{
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+    margin-top: 3%;
+}
+@media screen and (min-width: 400px){
+    section{width: 80%;}
+ } 
+
+@media screen and (min-width: 500px){
+    section{width: 70%;}
+ } 
+ @media screen and (min-width: 600px){
+    section{width: 60%;}
+ } 
+ @media screen and (min-width: 700px){
+    section{width: 5    0%;}
+ } 
+ @media screen and (min-width: 800px){
+    section{width: 40%;}
+ } 
+ @media screen and (min-width: 1000px){
+    section{width: 35%;}
+ } 
